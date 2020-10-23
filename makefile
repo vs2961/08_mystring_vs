@@ -7,4 +7,5 @@ main.o: main.c mystring.h
 mystring.o: mystring.c mystring.h
 	gcc -c mystring.c
 
-
+run:
+	./mystring
